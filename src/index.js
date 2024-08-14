@@ -11,7 +11,7 @@ module.exports = function check(str, bracketsConfig) {
     const currentChar = splitStr[i];
 
     if (bracketsMap[currentChar] {
-        if (currentChar === bracketsMap[currentChar && stack.includes(currentChar)) {
+        if (currentChar === bracketsMap[currentChar] && stack.includes(currentChar)) {
           stack.pop(); 
         } else {
           stack.push(currentChar);
